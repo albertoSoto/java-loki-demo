@@ -28,13 +28,21 @@
             <version>1.4.14</version>
             <scope>runtime</scope>
         </dependency>
-
+        <!--Using logback.xml-->
         <dependency>
             <groupId>com.github.loki4j</groupId>
             <artifactId>loki-logback-appender</artifactId>
             <version>1.4.2</version>
         </dependency>
 
+        <!--Using log4j-->
+        <!--
+        <dependency>
+            <groupId>pl.tkowalcz.tjahzi</groupId>
+            <artifactId>log4j2-appender-nodep</artifactId>
+            <version>0.9.31</version>
+        </dependency>
+        -->
     </dependencies>
 
 </project>
